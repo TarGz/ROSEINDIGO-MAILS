@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Message de {shop_name}</title>
+    <style>
+      .imghead {
+        width: 100%;
+        clear: both;
+      }
+      @media only screen and (max-width: 300px){
+      body {
+      width:218px !important;
+      margin:auto !important;
+      }
+      .table {width:195px !important;margin:auto !important;}
+      .logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto !important;display: block !important;}
+      span.title{font-size:20px !important;line-height: 23px !important}
+      span.subtitle{font-size: 14px !important;line-height: 18px !important;padding-top:10px !important;display:block !important;}
+      td.box p{font-size: 12px !important;font-weight: bold !important;}
+      .table-recap table, .table-recap thead, .table-recap tbody, .table-recap th, .table-recap td, .table-recap tr {
+      display: block !important;
+      }
+      .table-recap{width: 200px!important;}
+      .table-recap tr td, .conf_body td{text-align:center !important;}
+      .address{display: block !important;margin-bottom: 10px !important;}
+      .space_address{display: none !important;}
+      }
+      @media only screen and (min-width: 301px) and (max-width: 500px) {
+      body {width:308px!important;margin:auto!important;}
+      .table {width:285px!important;margin:auto!important;}
+      .logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}
+      .table-recap table, .table-recap thead, .table-recap tbody, .table-recap th, .table-recap td, .table-recap tr {
+      display: block !important;
+      }
+      .table-recap{width: 293px !important;}
+      .table-recap tr td, .conf_body td{text-align:center !important;}
+      }
+      @media only screen and (min-width: 501px) and (max-width: 768px) {
+      body {width:478px!important;margin:auto!important;}
+      .table {width:450px!important;margin:auto!important;}
+      .logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}
+      }
+      @media only screen and (max-device-width: 480px) {
+      body {width:308px!important;margin:auto!important;}
+      .table {width:285px;margin:auto!important;}
+      .logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}
+      .table-recap{width: 285px!important;}
+      .table-recap tr td, .conf_body td{text-align:center!important;}
+      .address{display: block !important;margin-bottom: 10px !important;}
+      .space_address{display: none !important;}
+      }
+    </style>
+  </head>
+  <body style="-webkit-text-size-adjust:none;background-color:#fff;width:650px;font-family:Open-sans, sans-serif;color:#555454;font-size:13px;line-height:18px;margin:auto">
+    <table style="width:100%;margin-top:10px;-moz-box-shadow:0 0 5px #afafaf;-webkit-box-shadow:0 0 5px #afafaf;-o-box-shadow:0 0 5px #afafaf;box-shadow:0 0 5px #afafaf;filter:progid:DXImageTransform.Microsoft.Shadow(color=#afafaf,Direction=134,Strength=5)" class="table table-mail">
+      <tr>
+        <td style="width:20px;padding:7px 0" class="space">&nbsp;</td>
+        <td align="center" style="padding:7px 0">
+          <table bgcolor="#ffffff" style="width:100%" class="table">
+            <tr>
+              <td align="center" style="padding:7px 0" class="logo"><a title="{shop_name}" href="{shop_url}?utm_source=email&amp;utm_medium=allinone_rewards&amp;utm_campaign=sponsorship-invitation" style="color:#337ff1"><img src="http://www.roseindigo.com/themes/roseindigo/img/email_header.jpg" alt="{shop_name}" class="imghead"></a></td>
+            </tr>
+            <tr>
+              <td align="center" style="padding:7px 0" class="titleblock"><font size="2" face="Open-sans, sans-serif" color="#555454"><span style="font-weight:500;font-size:28px;text-transform:uppercase;line-height:33px" class="title">Votre ami(e) {firstname} {lastname},</span><br><span style="font-weight:500;font-size:16px;text-transform:uppercase;line-height:25px" class="subtitle">vous a parrain&eacute; depuis le site <a href="{link}" style="color:#EA1D84;">{shop_name}</a></span></font></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #D6D4D4;background-color:#f8f8f8;padding:7px 0" class="box">
+                <table style="width:100%" class="table">
+                  <tr>
+                    <td width="10" style="padding:7px 0">&nbsp;</td>
+                    <td style="padding:7px 0"><font size="2" face="Open-sans, sans-serif" color="#555454">
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px">Devenez son(sa) filleul(e) afin de gagner <b>{nb_discount} </b>bon(s) d&apos;achat de <b>{discount} !</b></p>
+                        <p>Pour nous rejoindre, rien de plus simple:</p>
+                        <ol>
+                          <li><span>Inscrivez-vous sur {shop_name} en suivant&nbsp;</span><strong><a href="{link}?utm_source=email&amp;utm_medium=allinone_rewards&amp;utm_campaign=sponsorship-invitation" title="s'inscrire" style="font-size:12px; color:#EA1D84;">Ce lien</a></strong><span>.</span></li>
+                          <li><span>Rendez-vous dans </span><strong><a href="{shop_url}bons-de-reduction?utm_source=email&amp;utm_medium=allinone_rewards&amp;utm_campaign=sponsorship-invitation" title="s'inscrire" style="font-size:12px; color:#EA1D84;">Votre Compte</a></strong><span>&nbsp;pour recupérer votre bon de réduction.</span></li>
+                          <li>Copiez votre bon de réduction.</li>
+                          <li>Coller le bon de réduction dans&nbsp; <strong><a href="{shop_url}commande/?utm_source=email&amp;utm_medium=allinone_rewards&amp;utm_campaign=sponsorship-invitation" title="s'inscrire" style="font-size:12px; color:#EA1D84;">Votre Panier</a></strong><span>.</span></li>
+                        </ol></font></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #D6D4D4;background-color:#f8f8f8;padding:7px 0" class="box">
+                <table style="width:100%" class="table">
+                  <tr>
+                    <td width="10" style="padding:7px 0">&nbsp;</td>
+                    <td style="padding:7px 0"><font size="2" face="Open-sans, sans-serif" color="#555454">
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"><b>{shop_name}&nbsp;</b><span>c'est quoi ?</span></p>
+                        <p>{shop_name} est un site d'achat et de vente de vêtements d'occasion pas chers pour enfants de 0 à 12 ans.</p></font></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #D6D4D4;background-color:#f8f8f8;padding:7px 0" class="box">
+                <table style="width:100%" class="table">
+                  <tr>
+                    <td width="10" style="padding:7px 0">&nbsp;</td>
+                    <td style="padding:7px 0"><font size="2" face="Open-sans, sans-serif" color="#555454">
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"><b>Achetez </b><span>des vêtements pas chers</span></p>
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;padding-bottom:10px"><img src="http://media3.r0z.in/themes/roseindigo/img/concept/1.gif" style="border: 0px;width:98%;"><b>Nous achetons à des familles comme la vôtre des vêtements de qualité pour bébés et enfants.</b></p>
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;padding-bottom:10px"><img src="http://media3.r0z.in/themes/roseindigo/img/concept/2.gif" style="border: 0px;width:98%;"><b>Chaque vêtement est sélectionné individuellement et nous ne retenons que ceux qui respectent notre <a href="{shop_url}charte/qualite/?utm_source=email&amp;utm_medium=allinone_rewards&amp;utm_campaign=sponsorship-invitation" title="charte qualité" style="font-size:12px; color:#EA1D84;">charte de qualité</a></b></p>
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;padding-bottom:10px"><img src="http://media3.r0z.in/themes/roseindigo/img/concept/3.gif" style="border: 0px;width:98%;"><b>Vous commandez depuis notre boutique et nous vous livrons rapidement vos vêtements soigneusement emballés.</b></p></font></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #D6D4D4;background-color:#f8f8f8;padding:7px 0" class="box">
+                <table style="width:100%" class="table">
+                  <tr>
+                    <td width="10" style="padding:7px 0">&nbsp;</td>
+                    <td style="padding:7px 0"><font size="2" face="Open-sans, sans-serif" color="#555454">
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;text-transform:uppercase;font-weight:500;font-size:18px;padding-bottom:10px"><b>Vendez </b><span>les vêtements trop petit de vos enfants</span></p>
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;padding-bottom:10px"><img src="http://media3.r0z.in/themes/roseindigo/img/concept/4.gif" style="border: 0px;width:98%;"><b>Vous avez des vêtements pour enfants qui ne sont plus portés et qui encombrent vos armoires.</b></p>
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;padding-bottom:10px"><img src="http://media3.r0z.in/themes/roseindigo/img/concept/5.gif" style="border: 0px;width:98%;"><b>Nous rachetons cash les vêtements qui s’entassent dans vos armoires. Leur prix de reprise dépend de leur marque, taille et qualité.</b></p>
+                        <p data-html-only="1" style="border-bottom:1px solid #D6D4D4;margin:3px 0 7px;padding-bottom:10px"><img src="http://media3.r0z.in/themes/roseindigo/img/concept/6.gif" style="border: 0px;width:98%;"><b>Vos vêtements sont mis en ligne et feront le bonheur d’une nouvelle famille qui les achètera dans la boutique.</b></p></font></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="left">Bien cordialement,</td>
+            </tr>
+            <tr>
+              <td style="padding:0!important" class="space_footer">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="footer"><span>Orel</span></td>
+            </tr>
+          </table>
+        </td>
+        <td style="width:20px;padding:7px 0" class="space">&nbsp;</td>
+      </tr>
+    </table><br><span style="margin-top:2px!important"><b>{shop_name} </b><a href="{shop_url}?utm_source=email&amp;utm_medium=allinone_rewards&amp;utm_campaign=sponsorship-invitation" style="color:#EA1D84">achetez</a><span> et </span><a href="{shop_url}?utm_source=email&amp;utm_medium=allinone_rewards&amp;utm_campaign=sponsorship-invitation" style="color:#EA1D84">vendez</a><span> des vêtements d'occasion</span></span><br><br>
+  </body>
+</html>
